@@ -16,9 +16,9 @@
       <arg name="use_planner_default" value="$(arg use_planner_default)" />
     </include>
 
-    <param name="gerona/world_frame" value="map" />
-    <param name="gerona/odom_frame" value="odom" />
-    <param name="gerona/robot_frame" value="base_link" />
+    <param name="gerona/world_frame" value="robot_map" />
+    <param name="gerona/odom_frame" value="robot_odom" />
+    <param name="gerona/robot_frame" value="robot_base_link" />
 
 <!--
     <param name="path_follower/world_frame" value="odom" />
